@@ -1,11 +1,14 @@
 # Toy-Problems
 This is a repository on toy problems of phase1, it entails student grade generator speed detector and net salary calculator
-# JavaScript Code Examples
+
 
 This repository includes JavaScript code examples for three different scenarios.
 
 ## 1. Student Grade Generator
 
+<!-- Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
+
+        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40. -->
 ### Function: `calculateGrade`
 
 The `calculateGrade` function assesses a student's score and returns the corresponding grade based on predefined criteria.
@@ -22,13 +25,15 @@ The input should be between 0 and 100.The output should correspond the correct g
       const grade = '';
 
 
-# 2. Speed Detector
+## 2. Speed Detector
+
+<!-- Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points -->
 
 This JavaScript function, `calculateDemeritPoints`, simulates a speed detection system for cars. It checks if a car is within the speed limit or calculates demerit points and checks for license suspension if the speed limit is exceeded.
 
-## Function: `calculateDemeritPoints(speed)`
+### Function: `calculateDemeritPoints(speed)`
 
-### Parameters:
+#### Parameters:
 
 - `speed` (Number): The speed of the car in kilometers per hour (km/h).
 
@@ -36,13 +41,14 @@ if speed is less than 70, it should print "OK" . Otherwise for every 5km/hr abov
 
 
 
-# 3. Net Salary Calculator
+## 3. Net Salary Calculator
+<!-- Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. -->
 
 This JavaScript function, `calculateNetIncome`, computes the net salary based on the gross salary, tax rate, NHIF (National Hospital Insurance Fund) deduction, and NSSF (National Social Security Fund) deduction.
 
-## Function: `calculateNetIncome(grossSalary, taxRate, nhifDeduction, nssfDeduction)`
+### Function: `calculateNetIncome(grossSalary, taxRate, nhifDeduction, nssfDeduction)`
 
-### Parameters:
+#### Parameters:
 
 - `grossSalary` (Number): The gross salary before deductions.
 - `taxRate` (Number): The flat tax rate applied to the gross salary.
